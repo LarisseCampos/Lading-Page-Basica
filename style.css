@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/*** O pseudo-elemento CSS ::selection aplica estilos para partes do documento que foram selecionadas pelo usuário (tal como clicar e arrastar o ponteiro do mouse através de um texto.***/
+
+::selection {
+
+    background-color: #95d246;
+    color: white;
+}
+
+.wrapper {
+    
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.wrapper nav {
+        
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+}
+
+nav .logo {
+
+    width: 60px;
+}
+
+nav .logo {
+    padding:5px 10px;
+    width:100%;
+    
+}
+
+.logo:hover{
+    cursor: pointer;
+    transform: translate(-10px, 0px);
+    
+    
+}
+
+nav button {
+
+    padding: 10px 20px;
+    font-size: 17px;
+    background-color: #95d246;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: white;
+}
+
+nav button:hover {
+
+    cursor: pointer;
+    border: 1px solid #a3e053;
+    outline: none;
+    transition: 0.8s ease-in-out;
+       
+}
+
+main {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_text {
+
+    text-transform: uppercase;
+    width: 50%;
+    
+}
+
+.main_text h1{
+    
+   
+    font-size: 4em ;
+}
+
+.main_text h3 {
+
+    font-size: 1.5em;
+    margin-bottom: 16px;
+}
+
+
+.main_text .main_text-footer {
+
+    display: flex;
+    margin-top: 80px;
+}
+
+.main_text .main_text-footer h4{
+
+    color:#95d246;
+    font-size: 1em;
+}
+
+.main_text .main_text-footer p{
+
+    margin-top: 10px;
+    color:#8d8c8c;
+    font-weight: 500;
+}
+
+/*** A pseudo-classe nth-child é usada com apenas um argumento, que representa o padrão usado para selecionar os elementos.
+Representa o primeiro elemento.***/
+
+.main_text .main_text-footer div:nth-child(1){
+
+    margin-right: 50px;
+}
+
+main .main_img{
+    
+    margin-top: 60px;
+    width: 500px;
+    
+}
+
+
+
+
